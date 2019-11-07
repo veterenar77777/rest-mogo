@@ -1,0 +1,14 @@
+{
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0",
+    "fxp/composer-asset-plugin": "dev-master",
+    "yiisoft/yii2-mongodb": "^2.1"
+  }
+}
