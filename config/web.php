@@ -5,7 +5,7 @@
  * Date: 04.11.2019
  * Time: 11:28
  */
-define('YII_ENABLE_ERROR_HANDLER', false);
+ 
 $config = [
     'id' => 'test',
     'basePath' => dirname(__DIR__),
