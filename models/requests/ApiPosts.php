@@ -21,6 +21,7 @@ class ApiPosts extends Model
     {
         return[
             [['userId'],'required'],
+            [['offset','limit'],'integer'],
 
         ];
 

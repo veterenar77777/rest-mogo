@@ -21,7 +21,7 @@ class ApiController extends Controller
 
 
             $request = new ApiPosts();
-            if($request->load(\Yii::$app->request->get(),'')){
+            if($request->load(\Yii::$app->request->get(),'') && $request->validate()){
 
                 $post =new Posts($request);
                 $answer = $post->getData();
